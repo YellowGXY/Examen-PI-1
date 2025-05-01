@@ -1,4 +1,4 @@
-.//Se desea desarrollar un programa que me permita conocer el ganador de un torneo de box, en los cuales participaran 6 competidores
+//Se desea desarrollar un programa que me permita conocer el ganador de un torneo de box, en los cuales participaran 6 competidores
 //La primera etapa consistira en llaves establecidas
 //La segunda etapa que sera la final sera entre aquellos competidores que allan alcanzado los dos mejhores puntajes.
 //Los puntos se asiganaran de la siguiente manera
@@ -137,10 +137,10 @@ int main(){
             }
         } while (val != 1 || opc < 1 || opc > 2);
         if (opc == 1){
-            printf("%s es el ganador!", primero);
+            printf("%s es el ganador!\n", primero);
             printf("%s ha perdido el combate.", segundo);
         } else {
-            printf("%s es el ganador!", segundo);
+            printf("%s es el ganador!\n", segundo);
             printf("%s ha perdido el combate.", primero);
         }
     return 0;
